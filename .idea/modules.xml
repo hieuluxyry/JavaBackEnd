@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Access Modifer/Access Modifer.iml" filepath="$PROJECT_DIR$/Access Modifer/Access Modifer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CtoF/CtoF.iml" filepath="$PROJECT_DIR$/CtoF/CtoF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBackEnd.iml" filepath="$PROJECT_DIR$/JavaBackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuadraticEquation/QuadraticEquation.iml" filepath="$PROJECT_DIR$/QuadraticEquation/QuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stactic_Property/Stactic_Property.iml" filepath="$PROJECT_DIR$/Stactic_Property/Stactic_Property.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Static_Methor/Static_Methor.iml" filepath="$PROJECT_DIR$/Static_Methor/Static_Methor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StopWatch/StopWatch.iml" filepath="$PROJECT_DIR$/StopWatch/StopWatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datetime/datetime.iml" filepath="$PROJECT_DIR$/datetime/datetime.iml" />
+    </modules>
+  </component>
+</project>
