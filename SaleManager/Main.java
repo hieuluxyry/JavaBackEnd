@@ -73,7 +73,7 @@ public class Main {
 
     private static void viewProductById(ProductDAO productDAO) {
         System.out.print("Enter product ID: ");
-        int id = readIntInput(); // Sử dụng phương thức đọc số nguyên an toàn
+        int id = readIntInput();
         Product product = productDAO.getProductById(id);
         if (product != null) {
             System.out.println("========= Product Details =========");
@@ -85,10 +85,10 @@ public class Main {
 
     private static void addNewProduct(ProductDAO productDAO) {
         System.out.print("Enter product ID: ");
-        int id = readIntInput(); // Sử dụng phương thức đọc số nguyên an toàn
-        scanner.nextLine(); // Consume newline character
+        int id = readIntInput();
+        scanner.nextLine();
         System.out.print("Enter product name: ");
-        String name = scanner.nextLine().trim(); // Cắt bỏ khoảng trắng ở đầu cuối
+        String name = scanner.nextLine().trim();
         System.out.print("Enter product price: ");
         double price = scanner.nextDouble();
         Product newProduct = new Product(id, name, price);
@@ -98,12 +98,12 @@ public class Main {
 
     private static void updateProduct(ProductDAO productDAO) {
         System.out.print("Enter product ID to update: ");
-        int id = readIntInput(); // Sử dụng phương thức đọc số nguyên an toàn
+        int id = readIntInput();
         Product productToUpdate = productDAO.getProductById(id);
         if (productToUpdate != null) {
             scanner.nextLine(); // Consume newline character
             System.out.print("Enter new product name: ");
-            String newName = scanner.nextLine().trim(); // Cắt bỏ khoảng trắng ở đầu cuối
+            String newName = scanner.nextLine().trim();
             System.out.print("Enter new product price: ");
             double newPrice = scanner.nextDouble();
             productToUpdate.setName(newName);
@@ -117,7 +117,7 @@ public class Main {
 
     private static void deleteProduct(ProductDAO productDAO) {
         System.out.print("Enter product ID to delete: ");
-        int id = readIntInput(); // Sử dụng phương thức đọc số nguyên an toàn
+        int id = readIntInput();
         productDAO.deleteProduct(id);
         System.out.println("Product deleted successfully.");
     }
